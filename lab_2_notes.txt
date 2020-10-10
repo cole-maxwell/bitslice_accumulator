@@ -1,8 +1,0 @@
-lab 2 notes
-
-questions:
-1) why do we call the clock PHI?
-
-2) so a 1-bit accumulator is a half adder, and an n-bit accumulator is a full adder?
-
-3) the other standard row height was 128 lambda, but this one is 140. Is there a common size for cell libraries?
