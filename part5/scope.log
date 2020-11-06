@@ -1,0 +1,155 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:1
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1022+1008
+wm geometry .sigmgr._PF:1 360x319+1220+931
+wm geometry .sigmgr._PF:1 360x319+787+1106
+Mdi:ArrangeIcons
+pf:read PF:1 power(vsupply)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview dbm(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:Resize 657 372
+Mdi:Move 5 5
+pf:read PF:1 v(phi)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1150+1002
+wm geometry .sigmgr._PF:1 231x319+1349+882
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1022+1008
+wm geometry .sigmgr._PF:1 360x319+1220+931
+wm geometry .sigmgr._PF:1 360x319+787+1106
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:Resize 732 460
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Frequency Graph0 Signal1 either default default xyrangeAll - 0 - activeGraph
+# Signal2
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 2 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1034+1002
+wm geometry .sigmgr._PF:1 360x319+808+1185
+Graph:DSel
+pf:read PF:1 power(vsupply)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+pf:read PF:1 v(phi)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview dbm(x) -tracehi 2
+# Signal3
+wm geometry .sigmgr._PF:1 360x319+787+1106
+wm geometry .sigmgr 376x204+1022+1008
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1034+1002
+wm geometry .sigmgr._PF:1 360x319+808+1185
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Move 22 17
+Mdi:Move 18 18
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect AxisX(2) add
+# AxisX(2)
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 360x313+808+1191
+wm geometry .sigmgr._PF:1 360x313+671+1160
+Graph:DSel
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+943+1005
+wm geometry .sigmgr 376x204+1034+1002
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+943+1005
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:5
+wm geometry .sigmgr._PF:5 336x319+1244+931
+wm geometry .sigmgr._PF:5 336x319+952+1309
+wm geometry .sigmgr._PF:5 336x319+1244+931
+wm geometry .sigmgr._PF:5 336x319+952+1309
+GrXY:NewGraph
+# Graph1
+pf:read PF:5 power(vsupply)
+# WF:5:1
+Mdi:ArrangeIcons
+Graph addsignal WF:5:1 -region new -yview dbm(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:Move 149 95
+Graph:DSel
+Graph:Select Graph1
+Mdi:Move 135 75
+Mdi:Move 107 67
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:5 336x319+972+1290
+wm geometry .sigmgr._PF:5 336x319+960+1280
+wm geometry .sigmgr._PF:5 336x319+946+1278
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:5 336x319+952+1309
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:5 336x319+972+1290
+wm geometry .sigmgr._PF:5 336x319+960+1280
+wm geometry .sigmgr._PF:5 336x319+946+1278
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) part_05_accumulator.tr0 [3]}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

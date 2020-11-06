@@ -1,0 +1,957 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 349x319+1231+931
+wm geometry .sigmgr._PF:1 349x319+1087+1267
+pf:read PF:1 v(phi) power(vsupply)
+# WF:1:1 WF:1:2
+Graph addsignal {WF:1:1 WF:1:2} -region {new new} -yview {real(y) dbm(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Mdi:ArrangeIcons
+Mdi:Resize 791 547
+Mdi:Move 5 5
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 add
+# Signal0
+wm geometry .sigmgr._PF:1 349x319+1231+931
+wm geometry .sigmgr._PF:1 349x319+1087+1267
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Frequency Graph0 Signal0 either default default xyrangeAll Meas0vsX 0 - activeGraph
+# Signal2 Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal2 rem
+Graph delsignal Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig Signal3 -region 1 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal1} -regswap {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig {Signal1 Signal3} -regswap {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig Signal3 -region 1 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph sigconfig Signal3 -region 1 -xview real(x) -yview real(y) -fill yellow -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph sigconfig Signal3 -region 1 -xview real(x) -yview real(y) -fill yellow -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 1 -rgnindex 2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig {Signal1 Signal3} -region {1 1} -rgnindex {0 1}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 349x319+1143+1283
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+wm geometry .sigmgr._PF:1 349x319+1087+1267
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 349x319+1143+1283
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal0 rem
+Graph delsignal Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,1) -range {7.9837639177416g 1.9582679385697g}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,1) -range {4.3790546438462g 5.5020861525091g}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(1) -slider yes
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(1) -slider no
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,1) -unitscale g
+Graph axisconfig AxisY(0,1) -unitscale g
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig {Signal1 Signal3} -regswap {0 1}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Levels Graph0 Signal1 Average xyrangeAll 0 - activeGraph
+# Signal4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal4} -region {2 2} -rgnindex {0 1}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph sigconfig Signal4 -region 0 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph sigconfig Signal4 -region 0 -xview real(x) -yview real(y) -fill #FF8000 -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 power(vsupply)
+# WF:1:2
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:2
+Graph:DSel
+Mdi:ArrangeIcons
+pf:read PF:1 power(vsupply)
+# WF:1:2
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:2
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Graph:DSel
+pf:read PF:1 power(vsupply)
+# WF:1:2
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:2
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+pf:read PF:1 power(vsupply)
+# WF:1:2
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:2
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal4} -region {0 0} -rgnindex {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 rem
+Graph delsignal Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisX(1) add
+# AxisX(1)
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,1) add
+# AxisY(0,1)
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisY(0,1) add
+# AxisY(0,1)
+Graph itemselect AxisY(0,1) add
+Graph:DSel
+Graph itemselect AxisY(0,2) add
+# AxisY(0,2)
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal4} -region {0 0} -rgnindex {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal4} -region {0 0} -rgnindex {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect AxisX(1) add
+# AxisX(1)
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal {WF:1:1 WF:1:2} -region {new new} -yview {real(y) dbm(y)} -xview {dbm(x) dbm(x)} -tracehi {2 2}
+# Signal5 Signal6
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Resize 925 663
+Mdi:Move 5 5
+Graph:DSel
+Graph itemselect AxisX(2) add
+# AxisX(2)
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph sigconfig Signal6 -region 1 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig AxisX(2) -range {-271.92809530346 -46.928095303464 exact}
+Graph axisconfig AxisX(2) -range {-248.37682596334 -23.376825963342 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-209.46603314053 15.533966859469 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-203.83420786354 21.165792136455 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-200.25031905091 24.749680949082 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-197.69039847046 27.30960152953 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-195.13047789001 29.869522109978 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-191.03460496129 33.965395038695 exact}
+Graph axisconfig AxisX(2) -range {-180.7949226395 44.205077360488 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-188.47468438085 36.525315619143 exact}
+Graph axisconfig AxisX(2) -range {-191.54658907739 33.453410922606 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-194.61849377393 30.381506226068 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-197.17841435438 27.82158564562 exact}
+Graph axisconfig AxisX(2) -range {-207.93008079226 17.069919207738 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-226.36150897149 -1.3615089714884 exact}
+Graph axisconfig AxisX(2) -range {-230.9693660163 -5.9693660162949 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-234.55325482893 -9.5532548289223 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-248.37682596335 -23.376825963342 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-255.03261947251 -30.032619472507 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-260.6644447495 -35.664444749493 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-266.80825414258 -41.808254142568 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-270.39214295521 -45.392142955195 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-273.46404765175 -48.464047651733 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-279.09587292874 -54.095872928719 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-284.21571408964 -59.215714089615 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-287.79960290227 -62.799602902242 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-290.35952348272 -65.359523482691 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-307.25499931368 -82.254999313648 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-320.05460221592 -95.054602215888 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-335.9261098147 -110.92610981467 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-356.91745857438 -131.91745857435 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-363.06126796746 -138.06126796743 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-367.66912501227 -142.66912501224 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-373.30095028925 -148.30095028922 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-370.7410297088 -145.74102970877 exact}
+Graph axisconfig AxisX(2) -range {-359.98936327092 -134.98936327089 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-338.48603039516 -113.48603039512 exact}
+Graph axisconfig AxisX(2) -range {-329.78230042164 -104.7823004216 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-325.17444337684 -100.17444337679 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-304.18309461717 -79.183094617115 exact}
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(2) -range {-297.01531699192 -72.015316991861 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect AxisY(1,1) add
+# AxisY(1,1)
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Graph sigconfig {Signal3 Signal6} -region {1 1} -rgnindex {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect AxisX(2) add
+# AxisX(2)
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal4 rem
+Graph delsignal Signal4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal6 add
+# Signal6
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal6 rem
+Graph delsignal Signal6
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal5 rem
+Graph delsignal Signal5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+pf:read PF:1 power(vsupply)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview dbm(y) -xview dbm(x) -tracehi 2
+# Signal7
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph axisconfig AxisX(2) -range {-99.259 -108.66}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect AxisX(1) add
+# AxisX(1)
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph itemselect Signal7 add
+# Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal7 add
+# Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal7 add
+# Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisX(2) add
+# AxisX(2)
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal7 rem
+Graph delsignal Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal3 rem
+Graph delsignal Signal3
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 power(vsupply)
+# WF:1:2
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:2
+pf:read PF:1 v(phi)
+# WF:1:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1:1 -region new -yview real(y) -xview dbm(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:5
+wm geometry .sigmgr._PF:5 387x319+1193+931
+wm geometry .sigmgr._PF:5 387x319+1005+1107
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:5 387x319+919+1282
+GrXY:NewGraph
+# Graph1
+pf:read PF:5 v(phi)
+# WF:5:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:5:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:Move -162 668
+Mdi:Move 106 127
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Frequency Graph1 Signal0 either default default xyrangeAll Meas0vsX - - activeGraph
+# Signal1
+GrMeas:Frequency Graph1 Signal0 either default default xyrangeAll - 0 - activeGraph
+# Signal2
+Mdi:Move 115 128
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph1 delsignal Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:8
+wm geometry .sigmgr._PF:8 321x319+1259+931
+wm geometry .sigmgr._PF:8 321x235+1259+1015
+wm geometry .sigmgr._PF:8 321x235+935+1035
+wm geometry .sigmgr._PF:8 321x446+935+1035
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:9
+wm geometry .sigmgr._PF:9 345x319+1235+931
+wm geometry .sigmgr._PF:9 345x319+1016+1126
+pf:read PF:9 power(vsupply)
+# WF:9:1
+ScopeSigMgr:SetPfXAxis PF:9 WF:9:1
+GrXY:NewGraph
+# Graph2
+pf:read PF:9 v(phi)
+# WF:9:2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9:2 -region new -yview real(y) -xview dbm(x) -tracehi 2
+# Signal0
+Mdi:Move 178 105
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Move 207 42
+Graph:Select Graph2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal0 rem
+Graph delsignal Signal0
+Mdi:ArrangeIcons
+ScopeSigMgr:SetDefaultXAxis .sigmgr._PF:9 PF:9
+wm geometry .sigmgr._PF:9 345x319+750+1162
+Graph:DSel
+wm geometry .sigmgr._PF:9 345x319+1016+1126
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:9 345x319+750+1162
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part5/part_05_accumulator.tr0 1 openonly
+# PF:10
+wm geometry .sigmgr._PF:10 385x319+1195+931
+wm geometry .sigmgr._PF:10 385x319+1008+1062
+pf:read PF:10 power(vsupply)
+# WF:10:1
+ScopeSigMgr:SetPfXAxis PF:10 WF:10:1
+pf:read PF:10 v(phi)
+# WF:10:2
+wm geometry .sigmgr._PF:10 385x319+1195+931
+wm geometry .sigmgr._PF:10 385x319+1008+1062
+Graph addsignal WF:10:2 -region new -yview real(y) -xview dbm(x) -tracehi 2
+# Signal0
+Graph:Select Graph2
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+pf:read PF:10 i(vsupply)
+# WF:10:3
+Graph addsignal WF:10:3 -region new -yview real(y) -xview dbm(x) -tracehi 2
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph2
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal0 rem
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph delsignal Signal0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 rem
+Graph delsignal Signal1
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+pf:read PF:10 i(vsupply)
+# WF:10:3
+ScopeSigMgr:SetPfXAxis PF:10 WF:10:3
+pf:read PF:10 v(phi)
+# WF:10:2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:10:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Graph:Select Graph2
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:10 385x319+745+1072
+ScopeSigMgr:Unload 0 {{(1) part_05_accumulator.tr0 [3]}}
+Graph2 delsignal Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
