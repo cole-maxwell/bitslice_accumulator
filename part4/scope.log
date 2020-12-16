@@ -1,0 +1,84 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 347x319+1233+931
+wm geometry .sigmgr._PF:1 347x319+925+1119
+pf:read PF:1 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:Resize 815 624
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) part_04_accumulator.tr0 [3]}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 356x319+1224+931
+wm geometry .sigmgr._PF:2 356x319+1053+1055
+pf:read PF:2 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:Resize 923 684
+Mdi:Move 5 5
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig {Signal0 Signal1} -region {1 1} -rgnindex {0 1}
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig Signal3 -region 3 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph sigconfig Signal6 -region 3 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 2
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 0 -rgnindex 2
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal2} -region {0 0} -rgnindex {2 3}
+Graph:DSel
+Mdi:Resize 964 684
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) part_04_accumulator.tr0 [2]}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

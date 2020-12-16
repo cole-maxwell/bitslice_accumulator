@@ -1,0 +1,45 @@
+* "simulator" "HSPICE" 
+* "version" "E-2010.12-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "10:46:41 10/24/2020 "
+* "netlist" "part_04_accumulator.sp "
+* "runtitle" "** part_03_accumulator.sp"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 0.000e+00       
++ cin = 0.000e+00       
++ cout = 1.167e-05       
++ net20 = 1.100e+00       
++ net21 = 4.828e-04       
++ phi = 0.000e+00       
++ rst = 0.000e+00       
++ sout = 1.318e-04       
++ vdd = 1.100e+00       
++ xi0.net18 = 1.100e+00       
++ xi0.net19 = 1.100e+00       
++ xi0.net20 = 1.100e+00       
++ xi1.net15 = 6.578e-02       
++ xi2.net15 = 1.167e-04       
++ xi2.net17 = 1.081e+00       
++ xi2.net22 = 1.100e+00       
++ xi2.net26 = 5.853e-05       
++ xi2.net27 = 3.799e-02       
++ xi2.net28 = 1.100e+00       
++ xi2.net29 = 2.240e-01       
++ xi0.xi0.net15 = 4.478e-06       
++ xi0.xi0.net17 = 1.036e+00       
++ xi0.xi0.net29 = 6.422e-06       
++ xi0.xi0.net30 = 1.020e+00       
++ xi0.xi1.net22 = 3.366e-03       
++ xi0.xi1.net23 = 3.233e-04       
++ xi0.xi1.net25 = 1.099e+00       
++ xi0.xi1.net26 = 1.099e+00       
++ xi0.xi1.net28 = 1.624e-04       
++ xi0.xi1.net29 = 3.366e-03       
++ xi0.xi1.net31 = 2.520e-01       
++ xi0.xi1.net32 = 2.760e-01       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,949 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part3/part_03_accumulator.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 291x319+1289+931
+wm geometry .sigmgr._PF:1 291x319+1181+1005
+pf:read PF:1 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 291x319+1151+1277
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part3/part_03_accumulator.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 417x319+1163+931
+wm geometry .sigmgr._PF:2 417x319+1016+1204
+pf:read PF:2 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:Resize 1022 676
+Mdi:Move 5 5
+wm geometry .sigmgr._PF:2 417x319+1098+1341
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part3/part_03_accumulator.tr0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 329x319+1251+931
+wm geometry .sigmgr._PF:3 329x319+1114+1097
+pf:read PF:3 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:3:1 WF:3:2 WF:3:3 WF:3:4 WF:3:5 WF:3:6 WF:3:7 WF:3:8
+Graph addsignal {WF:3:1 WF:3:2 WF:3:3 WF:3:4 WF:3:5 WF:3:6 WF:3:7 WF:3:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part3/part_03_accumulator.tr0 1 openonly
+# PF:4
+wm geometry .sigmgr._PF:4 366x319+1214+931
+wm geometry .sigmgr._PF:4 366x319+1094+1112
+pf:read PF:4 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:4:1 WF:4:2 WF:4:3 WF:4:4 WF:4:5 WF:4:6 WF:4:7 WF:4:8
+Graph addsignal {WF:4:1 WF:4:2 WF:4:3 WF:4:4 WF:4:5 WF:4:6 WF:4:7 WF:4:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part3/part_03_accumulator.tr0 1 openonly
+# PF:5
+wm geometry .sigmgr._PF:5 292x319+1288+931
+wm geometry .sigmgr._PF:5 292x319+1114+996
+pf:read PF:5 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:5:1 WF:5:2 WF:5:3 WF:5:4 WF:5:5 WF:5:6 WF:5:7 WF:5:8
+Graph addsignal {WF:5:1 WF:5:2 WF:5:3 WF:5:4 WF:5:5 WF:5:6 WF:5:7 WF:5:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+wm geometry .sigmgr._PF:5 292x319+1288+931
+wm geometry .sigmgr._PF:5 292x319+1114+996
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 2
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig {Signal7 Signal1} -region {0 0} -rgnindex {1 2}
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph sigconfig Signal6 -region 4 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph sigconfig Signal4 -region 2 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:6
+wm geometry .sigmgr._PF:6 347x319+1233+931
+wm geometry .sigmgr._PF:6 347x319+1130+1114
+pf:read PF:6 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:6:1 WF:6:2 WF:6:3 WF:6:4 WF:6:5 WF:6:6 WF:6:7 WF:6:8
+Graph addsignal {WF:6:1 WF:6:2 WF:6:3 WF:6:4 WF:6:5 WF:6:6 WF:6:7 WF:6:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:7
+wm geometry .sigmgr._PF:7 342x319+1238+931
+wm geometry .sigmgr._PF:7 342x319+1156+1014
+pf:read PF:7 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:7:1 WF:7:2 WF:7:3 WF:7:4 WF:7:5 WF:7:6 WF:7:7 WF:7:8
+Graph addsignal {WF:7:1 WF:7:2 WF:7:3 WF:7:4 WF:7:5 WF:7:6 WF:7:7 WF:7:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:8
+wm geometry .sigmgr._PF:8 279x319+1301+931
+wm geometry .sigmgr._PF:8 279x319+1158+1124
+pf:read PF:8 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:8:1 WF:8:2 WF:8:3 WF:8:4 WF:8:5 WF:8:6 WF:8:7 WF:8:8
+Graph addsignal {WF:8:1 WF:8:2 WF:8:3 WF:8:4 WF:8:5 WF:8:6 WF:8:7 WF:8:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:Unload 0
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:9
+wm geometry .sigmgr._PF:9 346x319+1234+931
+wm geometry .sigmgr._PF:9 346x319+1118+1062
+pf:read PF:9 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:9:1 WF:9:2 WF:9:3 WF:9:4 WF:9:5 WF:9:6 WF:9:7 WF:9:8
+Graph addsignal {WF:9:1 WF:9:2 WF:9:3 WF:9:4 WF:9:5 WF:9:6 WF:9:7 WF:9:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:10
+wm geometry .sigmgr._PF:10 232x319+1348+931
+wm geometry .sigmgr._PF:10 232x319+1146+1158
+pf:read PF:10 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:10:1 WF:10:2 WF:10:3 WF:10:4 WF:10:5 WF:10:6 WF:10:7 WF:10:8
+Graph addsignal {WF:10:1 WF:10:2 WF:10:3 WF:10:4 WF:10:5 WF:10:6 WF:10:7 WF:10:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:Move 39 12
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:11
+wm geometry .sigmgr._PF:11 232x319+1348+931
+wm geometry .sigmgr._PF:11 232x287+1348+963
+wm geometry .sigmgr._PF:11 232x287+1138+1093
+pf:read PF:11 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:11:1 WF:11:2 WF:11:3 WF:11:4 WF:11:5 WF:11:6 WF:11:7 WF:11:8
+Graph addsignal {WF:11:1 WF:11:2 WF:11:3 WF:11:4 WF:11:5 WF:11:6 WF:11:7 WF:11:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:12
+wm geometry .sigmgr._PF:12 332x319+1248+931
+wm geometry .sigmgr._PF:12 332x319+1136+1007
+pf:read PF:12 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:12:1 WF:12:2 WF:12:3 WF:12:4 WF:12:5 WF:12:6 WF:12:7 WF:12:8
+Graph addsignal {WF:12:1 WF:12:2 WF:12:3 WF:12:4 WF:12:5 WF:12:6 WF:12:7 WF:12:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:13
+wm geometry .sigmgr._PF:13 237x319+1343+931
+wm geometry .sigmgr._PF:13 237x319+1110+1044
+pf:read PF:13 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:13:1 WF:13:2 WF:13:3 WF:13:4 WF:13:5 WF:13:6 WF:13:7 WF:13:8
+Graph addsignal {WF:13:1 WF:13:2 WF:13:3 WF:13:4 WF:13:5 WF:13:6 WF:13:7 WF:13:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:14
+wm geometry .sigmgr._PF:14 282x319+1298+931
+wm geometry .sigmgr._PF:14 282x319+1193+985
+pf:read PF:14 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:14:1 WF:14:2 WF:14:3 WF:14:4 WF:14:5 WF:14:6 WF:14:7 WF:14:8
+Graph addsignal {WF:14:1 WF:14:2 WF:14:3 WF:14:4 WF:14:5 WF:14:6 WF:14:7 WF:14:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:15
+wm geometry .sigmgr._PF:15 244x319+1336+931
+wm geometry .sigmgr._PF:15 244x319+1156+1039
+pf:read PF:15 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:15:1 WF:15:2 WF:15:3 WF:15:4 WF:15:5 WF:15:6 WF:15:7 WF:15:8
+Graph addsignal {WF:15:1 WF:15:2 WF:15:3 WF:15:4 WF:15:5 WF:15:6 WF:15:7 WF:15:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:16
+wm geometry .sigmgr._PF:16 317x319+1263+931
+wm geometry .sigmgr._PF:16 317x319+1191+992
+pf:read PF:16 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:16:1 WF:16:2 WF:16:3 WF:16:4 WF:16:5 WF:16:6 WF:16:7 WF:16:8
+Graph addsignal {WF:16:1 WF:16:2 WF:16:3 WF:16:4 WF:16:5 WF:16:6 WF:16:7 WF:16:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:17
+wm geometry .sigmgr._PF:17 246x319+1334+931
+wm geometry .sigmgr._PF:17 246x319+1117+1066
+pf:read PF:17 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:17:1 WF:17:2 WF:17:3 WF:17:4 WF:17:5 WF:17:6 WF:17:7 WF:17:8
+Graph addsignal {WF:17:1 WF:17:2 WF:17:3 WF:17:4 WF:17:5 WF:17:6 WF:17:7 WF:17:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:18
+wm geometry .sigmgr._PF:18 284x319+1296+931
+wm geometry .sigmgr._PF:18 284x319+1186+1003
+pf:read PF:18 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:18:1 WF:18:2 WF:18:3 WF:18:4 WF:18:5 WF:18:6 WF:18:7 WF:18:8
+Graph addsignal {WF:18:1 WF:18:2 WF:18:3 WF:18:4 WF:18:5 WF:18:6 WF:18:7 WF:18:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:19
+wm geometry .sigmgr._PF:19 309x319+1271+931
+wm geometry .sigmgr._PF:19 309x319+1168+1017
+pf:read PF:19 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:19:1 WF:19:2 WF:19:3 WF:19:4 WF:19:5 WF:19:6 WF:19:7 WF:19:8
+Graph addsignal {WF:19:1 WF:19:2 WF:19:3 WF:19:4 WF:19:5 WF:19:6 WF:19:7 WF:19:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:20
+wm geometry .sigmgr._PF:20 251x319+1329+931
+wm geometry .sigmgr._PF:20 251x319+1179+1059
+pf:read PF:20 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:20:1 WF:20:2 WF:20:3 WF:20:4 WF:20:5 WF:20:6 WF:20:7 WF:20:8
+Graph addsignal {WF:20:1 WF:20:2 WF:20:3 WF:20:4 WF:20:5 WF:20:6 WF:20:7 WF:20:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:21
+wm geometry .sigmgr._PF:21 284x319+1296+931
+wm geometry .sigmgr._PF:21 284x240+1296+1010
+wm geometry .sigmgr._PF:21 284x240+1094+1001
+wm geometry .sigmgr._PF:21 284x386+1094+1001
+pf:read PF:21 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:21:1 WF:21:2 WF:21:3 WF:21:4 WF:21:5 WF:21:6 WF:21:7 WF:21:8
+Graph addsignal {WF:21:1 WF:21:2 WF:21:3 WF:21:4 WF:21:5 WF:21:6 WF:21:7 WF:21:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:22
+wm geometry .sigmgr._PF:22 321x319+1259+931
+wm geometry .sigmgr._PF:22 321x319+1164+976
+pf:read PF:22 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:22:1 WF:22:2 WF:22:3 WF:22:4 WF:22:5 WF:22:6 WF:22:7 WF:22:8
+Graph addsignal {WF:22:1 WF:22:2 WF:22:3 WF:22:4 WF:22:5 WF:22:6 WF:22:7 WF:22:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Graph:DSel
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:23
+wm geometry .sigmgr._PF:23 307x319+1273+931
+wm geometry .sigmgr._PF:23 307x319+1114+1042
+pf:read PF:23 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:23:1 WF:23:2 WF:23:3 WF:23:4 WF:23:5 WF:23:6 WF:23:7 WF:23:8
+Graph addsignal {WF:23:1 WF:23:2 WF:23:3 WF:23:4 WF:23:5 WF:23:6 WF:23:7 WF:23:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:24
+wm geometry .sigmgr._PF:24 366x319+1214+931
+wm geometry .sigmgr._PF:24 366x319+1113+989
+pf:read PF:24 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:24:1 WF:24:2 WF:24:3 WF:24:4 WF:24:5 WF:24:6 WF:24:7 WF:24:8
+Graph addsignal {WF:24:1 WF:24:2 WF:24:3 WF:24:4 WF:24:5 WF:24:6 WF:24:7 WF:24:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:24 366x319+1214+931
+wm geometry .sigmgr._PF:24 366x319+1113+989
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:25
+wm geometry .sigmgr._PF:25 259x319+1321+931
+wm geometry .sigmgr._PF:25 259x319+1110+1071
+pf:read PF:25 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:25:1 WF:25:2 WF:25:3 WF:25:4 WF:25:5 WF:25:6 WF:25:7 WF:25:8
+Graph addsignal {WF:25:1 WF:25:2 WF:25:3 WF:25:4 WF:25:5 WF:25:6 WF:25:7 WF:25:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:26
+wm geometry .sigmgr._PF:26 296x319+1284+931
+wm geometry .sigmgr._PF:26 296x319+1144+967
+pf:read PF:26 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:26:1 WF:26:2 WF:26:3 WF:26:4 WF:26:5 WF:26:6 WF:26:7 WF:26:8
+Graph addsignal {WF:26:1 WF:26:2 WF:26:3 WF:26:4 WF:26:5 WF:26:6 WF:26:7 WF:26:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:27
+wm geometry .sigmgr._PF:27 326x319+1254+931
+wm geometry .sigmgr._PF:27 326x319+1158+1006
+pf:read PF:27 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:27:1 WF:27:2 WF:27:3 WF:27:4 WF:27:5 WF:27:6 WF:27:7 WF:27:8
+Graph addsignal {WF:27:1 WF:27:2 WF:27:3 WF:27:4 WF:27:5 WF:27:6 WF:27:7 WF:27:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:28
+wm geometry .sigmgr._PF:28 375x319+1205+931
+wm geometry .sigmgr._PF:28 375x319+1125+1067
+pf:read PF:28 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:28:1 WF:28:2 WF:28:3 WF:28:4 WF:28:5 WF:28:6 WF:28:7 WF:28:8
+Graph addsignal {WF:28:1 WF:28:2 WF:28:3 WF:28:4 WF:28:5 WF:28:6 WF:28:7 WF:28:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:29
+wm geometry .sigmgr._PF:29 360x319+1220+931
+wm geometry .sigmgr._PF:29 360x319+1154+1001
+pf:read PF:29 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:29:1 WF:29:2 WF:29:3 WF:29:4 WF:29:5 WF:29:6 WF:29:7 WF:29:8
+Graph addsignal {WF:29:1 WF:29:2 WF:29:3 WF:29:4 WF:29:5 WF:29:6 WF:29:7 WF:29:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:30
+wm geometry .sigmgr._PF:30 305x319+1275+931
+wm geometry .sigmgr._PF:30 305x319+1195+985
+pf:read PF:30 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:30:1 WF:30:2 WF:30:3 WF:30:4 WF:30:5 WF:30:6 WF:30:7 WF:30:8
+Graph addsignal {WF:30:1 WF:30:2 WF:30:3 WF:30:4 WF:30:5 WF:30:6 WF:30:7 WF:30:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:31
+wm geometry .sigmgr._PF:31 298x319+1282+931
+wm geometry .sigmgr._PF:31 298x319+1228+952
+pf:read PF:31 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:31:1 WF:31:2 WF:31:3 WF:31:4 WF:31:5 WF:31:6 WF:31:7 WF:31:8
+Graph addsignal {WF:31:1 WF:31:2 WF:31:3 WF:31:4 WF:31:5 WF:31:6 WF:31:7 WF:31:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:32
+wm geometry .sigmgr._PF:32 332x319+1248+931
+wm geometry .sigmgr._PF:32 332x319+1083+1082
+pf:read PF:32 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:32:1 WF:32:2 WF:32:3 WF:32:4 WF:32:5 WF:32:6 WF:32:7 WF:32:8
+Graph addsignal {WF:32:1 WF:32:2 WF:32:3 WF:32:4 WF:32:5 WF:32:6 WF:32:7 WF:32:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:33
+wm geometry .sigmgr._PF:33 426x319+1154+931
+wm geometry .sigmgr._PF:33 426x319+1069+1050
+pf:read PF:33 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:33:1 WF:33:2 WF:33:3 WF:33:4 WF:33:5 WF:33:6 WF:33:7 WF:33:8
+Graph addsignal {WF:33:1 WF:33:2 WF:33:3 WF:33:4 WF:33:5 WF:33:6 WF:33:7 WF:33:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:34
+wm geometry .sigmgr._PF:34 408x319+1172+931
+wm geometry .sigmgr._PF:34 408x319+1109+997
+pf:read PF:34 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:34:1 WF:34:2 WF:34:3 WF:34:4 WF:34:5 WF:34:6 WF:34:7 WF:34:8
+Graph addsignal {WF:34:1 WF:34:2 WF:34:3 WF:34:4 WF:34:5 WF:34:6 WF:34:7 WF:34:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:35
+wm geometry .sigmgr._PF:35 384x319+1196+931
+wm geometry .sigmgr._PF:35 384x319+1140+993
+pf:read PF:35 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:35:1 WF:35:2 WF:35:3 WF:35:4 WF:35:5 WF:35:6 WF:35:7 WF:35:8
+Graph addsignal {WF:35:1 WF:35:2 WF:35:3 WF:35:4 WF:35:5 WF:35:6 WF:35:7 WF:35:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:36
+wm geometry .sigmgr._PF:36 364x319+1216+931
+wm geometry .sigmgr._PF:36 364x319+1078+1026
+pf:read PF:36 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:36:1 WF:36:2 WF:36:3 WF:36:4 WF:36:5 WF:36:6 WF:36:7 WF:36:8
+Graph addsignal {WF:36:1 WF:36:2 WF:36:3 WF:36:4 WF:36:5 WF:36:6 WF:36:7 WF:36:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:37
+wm geometry .sigmgr._PF:37 331x319+1249+931
+wm geometry .sigmgr._PF:37 331x319+1105+998
+pf:read PF:37 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:37:1 WF:37:2 WF:37:3 WF:37:4 WF:37:5 WF:37:6 WF:37:7 WF:37:8
+Graph addsignal {WF:37:1 WF:37:2 WF:37:3 WF:37:4 WF:37:5 WF:37:6 WF:37:7 WF:37:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph sigconfig Signal4 -region 2 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph sigconfig Signal5 -region 4 -rgnindex 1
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 2
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 0 -rgnindex 3
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 1 -rgnindex 2
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig {Signal2 Signal3 Signal4 Signal6 Signal5} -regswap {1 2 2 3 3}
+Graph itemselect Signal2 add
+# Signal2
+Graph:DSel
+Mdi:Move -4 5
+Mdi:Move 5 5
+Mdi:Resize 1026 687
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:38
+wm geometry .sigmgr._PF:38 351x319+1229+931
+wm geometry .sigmgr._PF:38 351x319+1112+991
+pf:read PF:38 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:38:1 WF:38:2 WF:38:3 WF:38:4 WF:38:5 WF:38:6 WF:38:7 WF:38:8
+Graph addsignal {WF:38:1 WF:38:2 WF:38:3 WF:38:4 WF:38:5 WF:38:6 WF:38:7 WF:38:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig Signal3 -region 3 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 2
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph:DSel
+Mdi:Move 7 4
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig {Signal2 Signal7 Signal4 Signal3 Signal5 Signal6} -regswap {1 2 3 3 4 5}
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph sigconfig Signal5 -region 5 -rgnindex 1
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 2
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig {Signal7 Signal1 Signal0} -region {0 0 0} -rgnindex {0 1 2}
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig {Signal1 Signal7 Signal0} -region {0 0 0} -rgnindex {0 1 2}
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig {Signal0 Signal1 Signal7} -region {0 0 0} -rgnindex {0 1 2}
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:38 351x319+1229+931
+wm geometry .sigmgr._PF:38 351x319+1112+991
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab2/part4/part_04_accumulator.tr0 1 openonly
+# PF:39
+wm geometry .sigmgr._PF:39 325x319+1255+931
+wm geometry .sigmgr._PF:39 325x319+1134+1054
+pf:read PF:39 v(a) v(cin) v(cout) v(net20) v(net21) v(phi) v(rst) v(sout)
+# WF:39:1 WF:39:2 WF:39:3 WF:39:4 WF:39:5 WF:39:6 WF:39:7 WF:39:8
+Graph addsignal {WF:39:1 WF:39:2 WF:39:3 WF:39:4 WF:39:5 WF:39:6 WF:39:7 WF:39:8} -region {new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal4} -region {4 4} -rgnindex {0 1}
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph sigconfig Signal6 -region 3 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 2
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph sigconfig Signal6 -region 0 -rgnindex 3
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph sigconfig Signal6 -region 3 -rgnindex 1
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:39 325x319+1255+931
+wm geometry .sigmgr._PF:39 325x319+1134+1054
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) part_04_accumulator.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

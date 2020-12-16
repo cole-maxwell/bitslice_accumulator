@@ -1,0 +1,76 @@
+***** HSPICE -- E-2010.12-SP2 32-BIT (May 23 2011) linux ******
+ Input File: part_04_accumulator.sp
+ lic: No 'setenv LM_LICENSE_FILE' in current environment'
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   chmaxwell            HOSTNAME: vlsicad2.ecs.umass.edu
+ lic: HOSTID: 782bcb03b893         PID:      11794
+ lic: Using FLEXlm license file:
+ lic: 27000@vlsicad2.ecs.umass.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 09-sep-2021/2019.06
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER vlsicad2.ecs.umass.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  1.00E-02
+       option search   = /usr/synopsys/hspice/hspice/parts/ad
+       option search   = /usr/synopsys/hspice/hspice/parts/behave
+       option search   = /usr/synopsys/hspice/hspice/parts/bjt
+       option search   = /usr/synopsys/hspice/hspice/parts/burr_brn
+       option search   = /usr/synopsys/hspice/hspice/parts/comlinear
+       option search   = /usr/synopsys/hspice/hspice/parts/dio
+       option search   = /usr/synopsys/hspice/hspice/parts/fet
+       option search   = /usr/synopsys/hspice/hspice/parts/lin_tech
+       option search   = /usr/synopsys/hspice/hspice/parts/pci
+       option search   = /usr/synopsys/hspice/hspice/parts/signet
+       option search   = /usr/synopsys/hspice/hspice/parts/ti
+       option search   = /usr/synopsys/hspice/hspice/parts/tline
+       option search   = /usr/synopsys/hspice/hspice/parts/xilinx
+       option runlvl
+       option artist   =     2.00
+       option ingold   =     2.00
+       option parhie   = local
+       option psf      =     2.00
+       option post
+ init: end read circuit files,  cpu clock=  1.00E-02 memory=    286 kb
+ init: begin check errors,  cpu clock=  1.00E-02
+ init: end check errors,  cpu clock=  2.00E-02 memory=    428 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  2.00E-02
+       establish matrix -- done,  cpu clock=  2.00E-02 memory=    513 kb
+       re-order matrix -- done,  cpu clock=  2.00E-02 memory=    532 kb
+ init: end setup matrix,  cpu clock=  2.00E-02 memory=    599 kb
+ sweep: parameter       parameter1       begin, #sweeps =   2
+ parameter: clk_period      =    5.70E+01
+ dcop: begin dcop,  cpu clock=  2.00E-02
+ dcop: end dcop,  cpu clock=  5.00E-02 memory=    599 kb  tot_iter=     109
+ output: part_04_accumulator.tr0
+ sweep: tran tran1    begin, stop_t=  1.40E-09 #sweeps=1401 cpu clock=  5.00E-02
+ tran: time= 1.4200E-10 tot_iter=     142 conv_iter=      54 cpu clock= 1.00E-01
+ tran: time= 2.8221E-10 tot_iter=     318 conv_iter=     116 cpu clock= 1.70E-01
+ tran: time= 4.2110E-10 tot_iter=     503 conv_iter=     183 cpu clock= 2.40E-01
+ tran: time= 5.6473E-10 tot_iter=     705 conv_iter=     254 cpu clock= 3.20E-01
+ tran: time= 7.0240E-10 tot_iter=     919 conv_iter=     328 cpu clock= 4.10E-01
+ tran: time= 8.5784E-10 tot_iter=    1039 conv_iter=     371 cpu clock= 4.60E-01
+ tran: time= 9.8418E-10 tot_iter=    1045 conv_iter=     374 cpu clock= 4.60E-01
+ tran: time= 1.1242E-09 tot_iter=    1049 conv_iter=     376 cpu clock= 4.60E-01
+ tran: time= 1.2642E-09 tot_iter=    1053 conv_iter=     378 cpu clock= 4.60E-01
+ tran: time= 1.4000E-09 tot_iter=    1057 conv_iter=     380 cpu clock= 4.70E-01
+ sweep: tran tran1    end,  cpu clock=  4.70E-01 memory=    601 kb
+ parameter: clk_period      =    5.80E+01
+ dcop: begin dcop,  cpu clock=  4.70E-01
+ dcop: end dcop,  cpu clock=  5.10E-01 memory=    601 kb  tot_iter=     218
+ output: part_04_accumulator.err
+ sweep: tran tran2    begin, stop_t=  1.40E-09 #sweeps=1401 cpu clock=  5.10E-01
+ tran: time= 1.4411E-10 tot_iter=     142 conv_iter=      54 cpu clock= 5.60E-01
+ tran: time= 2.8059E-10 tot_iter=     328 conv_iter=     118 cpu clock= 6.30E-01
+ tran: time= 4.2174E-10 tot_iter=     531 conv_iter=     191 cpu clock= 7.10E-01
+ tran: time= 5.6060E-10 tot_iter=     724 conv_iter=     257 cpu clock= 7.90E-01
+ tran: time= 7.0107E-10 tot_iter=     948 conv_iter=     334 cpu clock= 8.50E-01
+ tran: time= 8.4718E-10 tot_iter=    1096 conv_iter=     384 cpu clock= 8.90E-01
+ tran: time= 9.8225E-10 tot_iter=    1104 conv_iter=     388 cpu clock= 8.90E-01
+ tran: time= 1.1883E-09 tot_iter=    1110 conv_iter=     391 cpu clock= 8.90E-01
+ tran: time= 1.3283E-09 tot_iter=    1114 conv_iter=     393 cpu clock= 8.90E-01
+ tran: time= 1.4000E-09 tot_iter=    1116 conv_iter=     394 cpu clock= 8.90E-01
+ sweep: tran tran2    end,  cpu clock=  8.90E-01 memory=    601 kb
+ sweep: parameter       parameter       1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
